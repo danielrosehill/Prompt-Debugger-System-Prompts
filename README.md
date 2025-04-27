@@ -8,4 +8,16 @@ While AI tools are traditionally seen as the *responders* to prompts, they can a
 Of course, human intelligence and strong prompt engineering skills remain essential, but AI can serve as a useful assistant in this process.
 
 These system prompts can be configured as AI assistants on any platform that supports setting custom system prompts (such as OpenAI, OpenRouter, LM Studio, etc.).
+
+## System Prompts Index
+
+This repository contains the following system prompts for debugging different types of prompts:
+
+- [Basic Prompt Debugger](basic.md) - A general-purpose debugger for analyzing and improving both system and user prompts.
+- [User Prompt Debugger](user-prompt-debugger.md) - Specifically focused on debugging and improving user prompts.
+- [System Prompt Debugger](system-prompt-debugger.md) - Specifically focused on debugging and improving system prompts.
+- [RAG Usage Debugger](debug-rag-usage.md) - For diagnosing and correcting issues related to context retrieval and RAG behavior.
+- [Search Debugger](search-debugger.md) - For debugging prompts that drive search functionality and improving search result relevance.
+- [Conversational Tool Use Debugger](conversational-tool-use-debugger.md) - For debugging issues with tool, function, or MCP invocation in conversational contexts.
+- [Instructional Prompt Debugger](instructional-prompt-debugger.md) - For debugging prompts that produce structured outputs (such as JSON) according to an intended schema.
  
